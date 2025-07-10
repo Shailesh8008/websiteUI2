@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./assets/Poppins-Medium.ttf);
+}
+.navbar-brand {
+    font-family: 'poppins';
+    background: linear-gradient(to bottom, #2b66ff, #b02cff);
+    background-clip: text;
+    color: transparent;
+}
+.navbar-brand img {
+    top: -4px;
+    right: -6px;
+    width: 4rem;
+}
+.navbar-brand:hover {
+    color: transparent;
+}
+nav .navbar-nav{
+    margin-left: 1rem !important;
+}
+.started,
+.experience {
+    background-color: #3863eb;
+}
+.section1 {
+    height: 42rem;
+}
+.top-section {
+    background-color: #2b83fe;
+    width: 98%;
+    height: 38.5rem;
+}
+.div1 {
+    width: 43%;
+    background-color: #2d77fe;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 77%, 0% 100%);
+}
+.div2 {
+    margin-left: 17%;
+    background-color: #28a2ff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 36% 100%);
+}
+.div3 {
+    background-color: #2d93ff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 12%, 0% 70%);
+}
+.section1 p {
+    max-width: 75%;
+    font-size: .87rem;
+}
+h1,
+.section1 p {
+    top: -384px;
+}
+.arrow-container {
+    top: -464px;
+    width: 90%;
+}
+.arrow-container img {
+    width: 2.8rem;
+}
+.arrow-container a {
+    cursor: pointer;
+    transition: 150ms;
+}
+.arrow-container a:hover {
+    scale: 105%;
+}
+.read-more {
+    top: -424px;
+}
+.read-more button{
+    transition: 150ms;
+}
+.read-more button:hover {
+    background-color: white !important;
+    color: #2b83fe !important;
+    scale: 105%;
+}
+.p3 {
+    width: 33%;
+}
+.card {
+    width: 21rem;
+}
+.section2 .card img,
+.section4 .card img {
+    width: 12%;
+}
+.about,
+.p,
+.p3,
+.p4,
+.p5,
+.p6,
+.p10,
+.card-text,
+.credit-p {
+    font-size: .85rem;
+}
+.about .p4 {
+    max-width: 34rem;
+}
+.p7,
+.p8,
+.p9 {
+    color: #3863eb;
+}
+.img-container img {
+    width: 19rem;
+}
+.img-container {
+    width: 36rem;
+}
+.experience {
+    max-width: 16rem;
+    margin-top: 162px;
+    left: -15%;
+}
+.social-links img {
+    width: 2rem;
+}
+.section5 .card {
+    width: 14rem;
+    transition: 150ms;
+}
+.section5 .card:hover{
+    scale: 105%;
+}
+.brand-logo {
+    width: 19rem;
+}
+.link,
+.service {
+    width: 16rem;
+}
+.contact {
+    width: 18rem;
+}
+footer .navbar-brand {
+    margin-left: -16px;
+}
+hr {
+    margin: 1rem 6%;
+}
+.credit {
+    justify-self: center;
+    width: 88%;
+}
+footer, .section3{
+    background-color: #eff2f9;
+}
+footer .text-secondary:hover{
+    color: black !important;
+}
+.credit .text-secondary:hover{
+    color: #2b66ff !important;
+    font-weight: 500;
+}
+@media (max-width: 722px) {
+    .p3 {
+        width: auto !important;
+    }
+    .section1 p {
+        margin: auto 24% !important;
+    }
+}
+@media (max-width: 464px) {
+    .img-container {
+        width: 100%;
+    }
+    .img-container img {
+        width: 14rem;
+    }
+    .experience {
+        left: -22%;
+        margin-top: 116px;
+    }
+    .experience .p11 {
+        font-size: 1rem !important;
+    }
+    .experience .p10 {
+        font-size: .6rem;
+    }
+}
+@media (max-width: 298px) {
+    .img-container2 {
+        flex-wrap: wrap;
+    }
+    .about {
+        margin-top: 1rem;
+    }
+    .p7 {
+        text-align: center;
+    }
+    .experience {
+        left: 0px;
+        margin: auto;
+    }
+    .img-container img {
+        width: 100%;
+    }
+    footer .p {
+        font-size: .7rem;
+    }
+    .contact{
+        overflow: scroll;
+    }
+}
